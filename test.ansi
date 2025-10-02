@@ -1,0 +1,22 @@
+[30mblack[0m     [90mbright black[0m      [40m black [0m      [100mbright black[0m
+[31mred[0m       [91mbright red[0m        [41m red [0m        [101mbright red[0m
+[32mgreen[0m     [92mbright green[0m      [42m green [0m      [102mbright green[0m
+[33myellow[0m    [93mbright yellow[0m     [43m yellow [0m     [103mbright yellow[0m
+[34mblue[0m      [94mbright blue[0m       [44m blue [0m       [104mbright blue[0m
+[35mmagenta[0m   [95mbright magenta[0m    [45m magenta [0m    [105mbright magenta[0m
+[36mcyan[0m      [96mbright cyan[0m       [46m cyan [0m       [106mbright cyan[0m
+[37mwhite[0m     [97mbright white[0m      [47m white [0m      [107mbright white[0m
+
+[1mbold[0m      [2mdim[0m         [3mitalic[0m     [4munderline[0m    [7minverse[0m    [8mhidden[0m    [9mbarred[0m
+
+# La ligne ci-dessous est une correction pour afficher une couleur RGB (orange)
+# [         -> Caractère d'échappement (ESC) + crochet, début de la séquence
+#  38;2;      -> Instruction pour "couleur de texte (38) au format RGB (2)"
+#  255;165;0  -> Valeurs pour Rouge(R), Vert(G), et Bleu(B)
+#  m          -> Fin de la séquence de code
+#  custom     -> Le texte à colorer
+#  [0m       -> Réinitialise tous les styles à la normale
+[38;2;250;165;0mcustom[0m
+[48;2;250;165;0mcustom[0m //38 pour le texte et 48 pour larriere plan 
+
+[38;2;250;165;0m[48;2;150;165;0mcustom[0m pour faire les deux
