@@ -26,3 +26,6 @@
 [48;2;250;165;0mcustom[0m //38 pour le texte et 48 pour larriere plan 
 
 [38;2;250;165;0m[48;2;150;165;0mcustom[0m  // pour faire les deux
+
+Pour du c/cpp : 
+\033[[30mblack\033[0m
