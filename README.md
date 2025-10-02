@@ -1,4 +1,4 @@
-# Visualiser les couleurs ANSI dans VS Code
+# Visualiser les couleurs ANSI du Test.ansi
 
 Pour afficher correctement les couleurs et les styles contenus dans le fichier `test.ansi`, vous aurez besoin de **deux extensions** pour une expérience optimale dans Visual Studio Code.
 
